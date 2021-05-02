@@ -1,0 +1,44 @@
+// defines: 
+int websel=0;
+int responseTime=100;
+int SELECT_BUTT=1;
+int BACK_BUTT=1;
+int UP_BUTT=1;
+int DOWN_BUTT=1;
+int LEFT_BUTT=1;
+int RIGHT_BUTT=1;
+// variables:(don't change the values)
+int xpos=2;
+int wlsel=0;
+int ypos=1;
+int i=1;
+int page;
+int inpage=0;
+int x=64;
+int y=32;
+int z=1;
+int x1=6;
+int Not=9;
+int z1=25;
+String o;
+String oo;
+String letter="/";
+int a=32;
+int f=0;
+int n=0;
+int h=15;
+int pin;
+int sec=0;
+String letter2;
+String letter3;
+int decl=0;
+long Num1;
+long Num2;
+int xc=250;
+int siz=500;
+int siz1=64;
+String dir;
+int sel=0;
+//  bitmaps
+// 'calculator', 50x50px
+// '', 50x50px
