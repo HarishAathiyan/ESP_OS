@@ -21,5 +21,13 @@ The ESP_OS V1 features:
   
   * The cons of simple mode are:
     * It is not that powerful compared to the desktop mode.
+    * It does not comes with bluetooth mouse for ease of moving experience.
 
+  * The pros of desktop mode are:
+    * It is powerful than the previous mode.
+    * It is near or less looks like ordinary destop OS (not that much) 
+    * It does  comes with bluetooth mouse for ease of moving experience.
+   
+   
+  /how 
 
