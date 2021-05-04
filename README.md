@@ -17,8 +17,10 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
    * you can also use the button mode to feel the real press.
    * It has RGI graphics, ESPcraft, calculator , integrated keyboard, voltmeter, basic command like ON and OFF an LED etc.
    * a keyboard in simple mode  <img width="64" alt="letters" src="https://user-images.githubusercontent.com/75715998/117020439-1187dd80-ad14-11eb-9458-8c8483ec8a75.png">
+   * paint software <img width="25" alt="paint" src="https://user-images.githubusercontent.com/75715998/117020841-6cb9d000-ad14-11eb-8929-a1365b5314cd.png">
+   * calculator <img width="25" alt="calculator" src="https://user-images.githubusercontent.com/75715998/117021004-94a93380-ad14-11eb-89d0-5c818a64c6be.png">
 
-  
+   
 #  The cons of simple mode are:
    * It is not that powerful compared to the desktop mode.
    * It does not comes with bluetooth mouse for ease of moving experience.
