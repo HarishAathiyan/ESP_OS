@@ -9,8 +9,8 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
 
 # The ESP_OS V1 features:
     * Supports two modes:
-  The SIMPLE mode
-  The DESKTOP mode.
+     The SIMPLE mode
+     The DESKTOP mode.
  # * The pros of simple mode are:
     * the simple mode is quite efficient and doesn't waste much power.
     * It works with simple IR(Infra red) red technology for remotely controlling.
