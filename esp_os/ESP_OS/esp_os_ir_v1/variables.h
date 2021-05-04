@@ -42,3 +42,52 @@ int sel=0;
 //  bitmaps
 // 'calculator', 50x50px
 // '', 50x50px
+
+int spd;
+int RIGHT_BUTTps2 = 1;
+int LEFT_BUTTps2 = 1;
+int UP_BUTTps2 = 1;
+int DOWN_BUTTps2 = 1;
+int xps2;
+int yps2;
+int draw = 0;
+int xrps2 = 0;
+int yrps2 = 0;
+int xxps2;
+int yyps2;
+int x2ps2;
+int y2ps2;
+int selps2 = 0;
+#define RXD2 16
+#define TXD2 17
+
+int number;
+int number1;
+int number2;
+int disnum1;
+int disnum2;
+int xx=25;
+int yy=30;
+int numtime=0;
+int z10,z2,z3,z4,z5,z6,z7,z8,z9,z0=0;
+int result=number1+number2;
+int responsetime=200;
+
+
+int rSELECT_BUTT=1;
+int rBACK_BUTT=1;
+int rUP_BUTT=1;
+int rDOWN_BUTT=1;
+int rLEFT_BUTT=1;
+int rRIGHT_BUTT=1;
+int rP_BUTT=1;
+int rL_BUTT=1;
+int cubeselect=0;
+
+int rxpos,rypos,rWidth,rLength,rxpos2,rypos2,rxlimit,rylimit,rx2limit,ry2limit,ri;
+int nxpos,nypos,nWidth,nLength,nxpos2,nypos2;
+//x4=xpos y4=ypos x2=Width y2=Length x5=xpos2 y5=ypos2
+int fol=0;
+int windows=0;
+int xwin=28;
+int ywin=16;

@@ -54,6 +54,22 @@
 #define ON 0
 #define OFF 1
 #define INCREASE_RATE 5 
+//variables declare
+#define rBUTT_1 59
+#define rBUTT_2 60
+#define rSCAN1BUTT 50
+#define rSCAN2BUTT 51
+#define rUP_BUTT1 71
+#define rLEFT_BUTT1 89
+#define rRIGHT_BUTT1 90
+#define rDOWN_BUTT1 72
+#define rENTER_BUTT1 88
+#define rRETURN_BUTT1 69
+#define rVOL1BUTT 2
+#define rVOL2BUTT 3
+
+#define LEFTCLICK 1
+#define RIGHTCLICK 2
 
 #include <IRremote.h>
 #include <SPI.h>

@@ -5,27 +5,11 @@
 
 //program:
 
-#include "irconfig.h"
-//includes,defines and variables:
-#include <IRremote.h>
-#include <SPI.h>
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+
 #define SCREEN_WIDTH 128 
 #define SCREEN_HEIGHT 64
 #define OLED_RESET 4
-int number;
-int number1;
-int number2;
-int disnum1;
-int disnum2;
-int xx=25;
-int yy=30;
-int numtime=0;
-int z10,z2,z3,z4,z5,z6,z7,z8,z9,z0=0;
-int result=number1+number2;
-int responsetime=200;
+
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 //end of it
 void discal(){
