@@ -19,6 +19,7 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
    * a keyboard in simple mode  <img width="64" alt="letters" src="https://user-images.githubusercontent.com/75715998/117020439-1187dd80-ad14-11eb-9458-8c8483ec8a75.png">
    * paint software <img width="25" alt="paint" src="https://user-images.githubusercontent.com/75715998/117020841-6cb9d000-ad14-11eb-8929-a1365b5314cd.png">
    * calculator <img width="25" alt="calculator" src="https://user-images.githubusercontent.com/75715998/117021004-94a93380-ad14-11eb-89d0-5c818a64c6be.png">
+   * RGI graphics <img width="64" alt="RGI" src="https://user-images.githubusercontent.com/75715998/117021127-b3a7c580-ad14-11eb-98e2-59cad820b013.png">
 
    
 #  The cons of simple mode are:
