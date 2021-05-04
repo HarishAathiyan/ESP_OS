@@ -26,4 +26,16 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
     * It is near or less looks like ordinary destop OS (not that much) 
     * It does  comes with bluetooth mouse for ease of moving experience.
    
+# enabling the desktop mode:
+    * to enable the desktop mode you need to put this code on the main tab:
+    
+    void setup(){
+    desktop_os_start();
+    }
+    void loop() {  
+    run_desktop_os();
+    }
+
+
+
 
