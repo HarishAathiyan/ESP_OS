@@ -1,10 +1,10 @@
 # ESP_OS_v1
 A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improved)
 
-# only simple components are needed to make it work: 
-* ESP32
-* OLED display 128x64
-* HC05 bluetooth module
+# * only simple components are needed to make it work: 
+  * ESP32
+  * OLED display 128x64
+  * HC05 bluetooth module
 
 The esp32 is so small that you can integrate countless amount of fun!
 ![image](https://user-images.githubusercontent.com/75715998/116811626-f0828980-ab67-11eb-996d-59545eb303b3.png)
@@ -28,6 +28,4 @@ The esp32 is so small that you can integrate countless amount of fun!
     * It is near or less looks like ordinary destop OS (not that much) 
     * It does  comes with bluetooth mouse for ease of moving experience.
    
-   
- # color njx
 
