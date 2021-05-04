@@ -29,5 +29,5 @@ The esp32 is so small that you can integrate countless amount of fun!
     * It does  comes with bluetooth mouse for ease of moving experience.
    
    
- #color njx
+ # color njx
 
