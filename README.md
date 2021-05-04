@@ -27,9 +27,16 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
    * It does  comes with bluetooth mouse for ease of moving experience.
    
 # enabling the desktop mode:
- to enable the desktop mode you need to simply define as desktop or simple Mode in the beginning or just copy and paste this code in the main:
-              #define desktopMode
-              //#define simpleMode //comment this out if you need to use the desktop Mode! 
+  to enable the desktop mode you need to simply define as desktop or simple Mode in the beginning or just copy and paste this code in the main:
+                
+                 #define desktopMode
+                 //#define simpleMode //comment this out if you need to use the desktop Mode! 
+                 
+# enabling the Simple mode:
+  to enable the desktop mode you need to simply define as desktop or simple Mode in the beginning or just copy and paste this code in the main:
+                
+                 //#define desktopMode //comment this out if you need to use the simple Mode! 
+                 #define simpleMode 
 
 
 
