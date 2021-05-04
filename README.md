@@ -6,8 +6,6 @@ A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improv
     * OLED display 128x64
     * HC05 bluetooth module
 
-The esp32 is so small that you can integrate countless amount of fun!
-![image](https://user-images.githubusercontent.com/75715998/116811626-f0828980-ab67-11eb-996d-59545eb303b3.png)
 
 # The ESP_OS V1 features:
 * Supports two modes:
