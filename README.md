@@ -2,10 +2,12 @@
 A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improved)
 
 #  only simple components are needed to make it work : 
-   ESP32
-   OLED display 128x64
-   HC05 bluetooth module
-
+    ESP32
+    OLED display 128x64
+    HC05 bluetooth module
+   
+# Here is an oversimpified schematic(kind of) for our ESP_OS v1.0 containing only these three components connected to each other:
+![Schematic_esp_os_2021-05-07](https://user-images.githubusercontent.com/75715998/117460744-763c7580-af6a-11eb-9136-ce65acc9a56d.png)
 
 # The ESP_OS V1 features:
    Supports two modes:
