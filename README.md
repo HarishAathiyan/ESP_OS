@@ -1,8 +1,19 @@
 # ESP_OS_v1
 A mini GUI interface for ESP32 supporting 128x64 OLED display(can further improved)
+# What is that ESP32?
+[MORE about that THING](https://en.wikipedia.org/wiki/ESP32),
+![image](https://user-images.githubusercontent.com/75715998/117464130-ff08e080-af6d-11eb-8946-0c14d5ade2c6.png)
+
+But here is some quick info about that:
+  * It is a MCU with some wifi and bluetooth capabilties having the famous Xtensa Dual core.
+  * It has significantly large SRAM and flash than the arduino Mega or the Nano which i use often.
+  * The peripheral things are more extended and could help a lot.
+  * It is dual core, so that we can produce multitasking which is very useful than the single core.
+  * It is 240Mhz! the clock speed is definitly need for the wifi and bluetooth capabilty.
+  * It has many things though, but i will consider these things are the important ones.
 
 #  only simple components are needed to make it work : 
-    ESP32
+    ESP32 
     OLED display 128x64
     HC05 bluetooth module
    
