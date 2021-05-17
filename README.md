@@ -1,6 +1,7 @@
-# ESP_OS v1.1 💻🖱️
+# 💻 ESP_OS v1.1 🖱️
 The OS for ESP32 with simple GUI with own command language.
-## 📌 Important Notice ! :
+
+## ⚠ Important Notice ! :
  - Hi there, you have come to the latest version(2021) version of the ESP_OS! 
  - It is the newest version now which supports bluetooth and its own simple command language
 ## 📥 How to Download:
@@ -27,7 +28,7 @@ And here is for the simple mode:
  > STEP 5:
  - hit the upload button on the top left and there you go!
 
-## Features and its usage:
+## 💿Features and its usage: 
 > Features of the ESPOS v1.1:
 
 |Features|simple Mode|desktop Mode|
