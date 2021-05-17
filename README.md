@@ -33,7 +33,19 @@ And here is for the simple mode:
 
 |Features|simple Mode|desktop Mode|
 |---|---|---|
-|**Bluetooth**|NO|YES|
-|**IR**|YES|YES|
-|**RGI graphics**|YES|NO|
+|**Bluetooth**|❌|✔|
+|**IR Support**|✔|✔|
+|**RGI graphics**|✔|❌|
+|**Calculator**|✔|❌|
+|**ESPcraft**|✔|❌|
+|**WindowsScreen**|❌|✔|
+|**MIT KeyBoard**|❌|✔|
+|**Mouse cursor**|❌|✔|
+|**Least power use**|✔|❌|
+|**VoltMeter**|✔|❌|
+|**ESPcommand**|❌|✔|
+|**Simplicity**|✔|❌|
+|**PAINT software**|✔|❌|
+|**OnScreen Keyboard**|✔|❌|
+|**OffScreen KeyBoard**|❌|✔|
 
