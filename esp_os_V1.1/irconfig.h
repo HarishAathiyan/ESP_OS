@@ -1,7 +1,20 @@
+/*
+Here are the declaraton of the libraries used to communicate with the IRremte, Display etc.
+*/
+#include <IRremote.h>
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+// please define your IR recieve pin for IR communication.
 #define  IR_RECEIVE_PIN 15
-#define R 5
-#define G 6
-#define B 9
+
+/*
+Down below are the declaration for the IR signals for  OS
+You can edit them and put whatever value the IR remote gives out. you can test it out using an 
+example at the IR remote library.(Here Im using LG37 remote)
+*/
 #define IR_PIN 11
 #define POWER_BUTT 48
 #define OPEN/CLOSE_BUTT 54
@@ -54,7 +67,13 @@
 #define ON 0
 #define OFF 1
 #define INCREASE_RATE 5
-//variables declare
+
+
+
+/*
+Here is another declaration but for the RGI graphics.
+i use seperately because it was a faste remote(simple radio or music player remote)
+*/
 #define rBUTT_1 59
 #define rBUTT_2 60
 #define rSCAN1BUTT 50
@@ -68,12 +87,18 @@
 #define rVOL1BUTT 2
 #define rVOL2BUTT 3
 
+/*
+Here down below is declaration of right a left clicks for UNICA robotics app which is connected via 
+bluetooth.
+*/
+
 #define LEFTCLICK 1
 #define RIGHTCLICK 2
-#define LEFTCLICK_MIT "P"
-#define RIGHTCLICK_MIT "L"
-#include <IRremote.h>
-#include <SPI.h>
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+
+/*
+Here down below is declaration of right a left clicks for MIT app inventor app which is 
+connected via bluetooth.
+*/
+
+#define LEFTCLICK_MIT "Q"
+#define RIGHTCLICK_MIT "I"

@@ -1,7 +1,9 @@
-//declaration of libraries:
 
 
+// declaration of the variable which totally change the colour of the shown image(invert colour)
 char rcolor = WHITE;
+
+//set the default values for the RGI graphics as it in default(first condtition)
 void setdefaultRGI() {
   ri = 0;
   rxpos = 10;
@@ -12,6 +14,7 @@ void setdefaultRGI() {
   rWidth = 10;
 }
 
+//the function which sets the cube 
 void cubeRGI() {
   display.clearDisplay();
   display.drawRect(rxpos, rypos, rWidth, rLength, WHITE);
@@ -25,6 +28,7 @@ void cubeRGI() {
   rylimit = rypos2 + rLength;
 }
 
+//the IR remote commands.
 void IRremoteRGI() {
   if (IrReceiver.decode()) {
     Serial.println(IrReceiver.decodedIRData.command);

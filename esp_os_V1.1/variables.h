@@ -1,4 +1,5 @@
 // defines:
+
 int websel = 0;
 int responseTime = 100;
 int SELECT_BUTT = 1;
@@ -72,7 +73,6 @@ int numtime = 0;
 int z10, z2, z3, z4, z5, z6, z7, z8, z9, z0 = 0;
 int result = number1 + number2;
 int responsetime = 200;
-
 
 int rSELECT_BUTT = 1;
 int rBACK_BUTT = 1;

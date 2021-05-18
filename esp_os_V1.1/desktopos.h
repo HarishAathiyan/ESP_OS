@@ -1,10 +1,14 @@
-void textpad() {
+//the textpad where we can type commands and execute
+void textpad()
+{
   display.setCursor(0, 0);
   display.setTextColor(WHITE);
   display.print(total);
 }
 
-void startScreen() {
+//this function initializes the start Screen
+void startScreen()
+{
 
   display.fillRect(0, 19, 50, 45, WHITE);
   display.drawLine(0, 50, 50, 45, WHITE);
@@ -12,61 +16,34 @@ void startScreen() {
   display.setTextColor(BLACK);
   display.setTextSize(1);
   display.println("settings");
-
 }
-void settingswindows() {
+
+//this is the window settings(show each program in a beautiful box)
+void settingswindows()
+{
   windows = 1;
 
-  if (show == 1) {
-    switch (pagewin) {
-      case 0:
-        display.fillRect(xwin + 50, ywin + 10, 10, 10, 1);
-        display.setCursor(xwin, ywin + 20);
-        display.setTextColor(WHITE);
-        display.setTextSize(1);
-        display.println("What is AI?");
-        display.println("greatscott!");
-        display.println("chrome browse");
-        break;
-      case 4:
-        display.fillRect(xwin + 50, ywin + 20, 10, 10, 1);
-        break;
-
-      case 2:
-        display.setCursor(xwin, ywin + 20);
-        display.setTextColor(WHITE);
-        display.setTextSize(1);
-        display.println("latest news");
-        display.println("india releived");
-        display.println("from corona");
-        display.fillRect(xwin + 50, ywin + 30, 10, 10, 1);
-        break;
-      case 3:
-        display.setCursor(xwin, ywin + 20);
-        display.setTextColor(WHITE);
-        display.setTextSize(1);
-        display.println("do you know");
-        display.println("that thousands");
-        display.println("of people are");
-        display.fillRect(xwin + 50, ywin + 40, 10, 10, 1);
-        break;
-    };
+  if (show == 1)
+  {
     display.drawRect(xwin + 50, ywin + 10, 10, 40, 1);
     display.fillRect(xwin + 29, ywin, 11, 10, colormin);
     display.fillRect(xwin + 40, ywin, 10, 10, colormax);
     display.fillRect(xwin + 50, ywin, 10, 10, colorclose);
     display.drawBitmap(xwin, ywin, blankscreen, 60, 50, 1);
   }
-  if (show1 == 1) {
+  if (show1 == 1)
+  {
     display.fillRect(98, 0, 10, 10, colormin);
     display.fillRect(108, 0, 10, 10, colormax);
     display.fillRect(118, 0, 10, 10, colorclose);
     display.drawBitmap(0, 0, screenmax, 128, 64, 1);
-
   }
 
+  //initializes the destop operating system. Use it only one time
 }
-void desktop_os_start() {
+void desktop_os_start()
+{
+
   Serial.begin(115200);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3D);
   display.drawBitmap(0, 0, OSlogo, 128, 64, 1);
@@ -75,8 +52,11 @@ void desktop_os_start() {
   Serial.println("Serial Rxd is on pin: " + String(RX));
 }
 
-void elements() {
-  if (selps2 != 2 && selps2 != 3) {
+//the elements which showcase the name of the  icon
+void elements()
+{
+  if (selps2 != 2 && selps2 != 3 && selps2!=4)
+  {
     display.setCursor(0, 16);
     display.setTextColor(WHITE);
     display.setTextSize(1);
@@ -88,65 +68,74 @@ void elements() {
   }
 }
 
-void ir() {
-  if ( RIGHT_BUTTps2 == 0  ) {
+// the IR remote settings for the desktop OS
+void ir()
+{
+  if (RIGHT_BUTTps2 == 0)
+  {
     xps2 = xps2 + spd;
-
   }
-  if (LEFT_BUTTps2 == 0) {
+  if (LEFT_BUTTps2 == 0)
+  {
     xps2 = xps2 - spd;
-
-
   }
-  if (  UP_BUTTps2 == 0  ) {
+  if (UP_BUTTps2 == 0)
+  {
     yps2 = yps2 - spd;
-
   }
-  if (DOWN_BUTTps2 == 0) {
+  if (DOWN_BUTTps2 == 0)
+  {
     yps2 = yps2 + spd;
-
   }
-  if (xps2 > 118) {
+  if (xps2 > 118)
+  {
     xps2 = 118;
   }
-  if (yps2 > 54) {
+  if (yps2 > 54)
+  {
     yps2 = 54;
   }
-  if (xps2 < 0) {
+  if (xps2 < 0)
+  {
     xps2 = 0;
   }
-  if (yps2 < 0) {
+  if (yps2 < 0)
+  {
     yps2 = 0;
   }
 }
 
-
-
-void run_desktop_os() {
-  if (selps2 == 1 ) {
+//use this function to run the desktop os. use it once in a loop
+void run_desktop_os()
+{
+  if (selps2 == 1)
+  {
     startScreen();
   }
-  if (selps2 == 2 || selps2 == 3) {
+  if (selps2 == 2 || selps2 == 3)
+  {
     settingswindows();
   }
 
-  if (fol == 1) {
+  if (fol == 1)
+  {
     xwin = xps2;
     ywin = yps2;
   }
-  if (selps2 == 4) {
+  if (selps2 == 4)
+  {
     textpad();
   }
+
+bluetooth_mouse_MIT();
+  runespcommand();
   ir();
   elements();
-  bluetooth_mouse_MIT();
-
   display.drawBitmap(xps2, yps2, mouse, 10, 10, 1);
-  if (selps2 != 2 && selps2 != 3) {
+  if (selps2 != 2 && selps2 != 3 && selps2!=4)
+  {
     display.drawBitmap(0, 0, desktopic, 128, 64, 1);
   }
   display.display();
   display.clearDisplay();
-
-
 }
