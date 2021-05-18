@@ -23,14 +23,25 @@ The OS for ESP32 with simple GUI with own command language.
 And here is for the simple mode:
 
 `#define SIMPLE_MODE`
+> STEP 5:
 
- > STEP 5:
+- before uploading the sketch, you need to setup the schematics first!
+
+**Down below is an oversimplified shematic:**
+![](https://user-images.githubusercontent.com/75715998/117460744-763c7580-af6a-11eb-9136-ce65acc9a56d.png)
+
+- The components needed are:
+   - ESP32
+   - HC05
+   - OLED Monochrome 128x64
+
+ > STEP 6:
  - hit the upload button on the top left and there you go!
 
 ## Features and its usage:
 > Features List of the ESPOS v1.1 comparing simple and Desktop Mode :
 
-|Features|simple Mode|desktop Mode|
+|***Features***|***simple Mode***|***desktop Mode***|
 |---|---|---|
 |**Bluetooth**|❌|✔|
 |**IR Support**|✔|✔|
@@ -130,5 +141,4 @@ The **ESPOS** comes with a integerated command line to execute the commands.
 > **PAINT software:**
 
 The **ESPOS** comes with a paint software simply to paint something idiotic.
-
 
