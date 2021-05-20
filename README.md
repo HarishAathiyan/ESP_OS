@@ -63,6 +63,9 @@ And here is for the simple mode:
 
 
   The **ESPOS** comes with a  _**bluetooth**_ support that you can control the OS with your mobile, _**bluetooth keyboard**_ or any other `Bluetooth` Device.
+   > How to download the app:
+     - go to the amazon app store and search for ESPOS and the first one will be the the app to download.
+     -  Or in shortcut, you can [Click here](https://www.amazon.com/dp/B095CN488K/ref=sr_1_1?dchild=1&keywords=espos&qid=1621490488&sr=8-1) to get to the download page
 
   **The Bluetooth apps supported:**
    - UNICA robotics bluetooth joystick.
